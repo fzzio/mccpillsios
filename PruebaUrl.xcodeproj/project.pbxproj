@@ -23,6 +23,8 @@
 		84248864195E175100AB09E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8424883F195E175100AB09E7 /* Foundation.framework */; };
 		8424886C195E175100AB09E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8424886A195E175100AB09E7 /* InfoPlist.strings */; };
 		8424886F195E175100AB09E7 /* PruebaUrlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8424886E195E175100AB09E7 /* PruebaUrlTests.m */; };
+		8424887D195E1A2000AB09E7 /* UrlResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 8424887C195E1A2000AB09E7 /* UrlResolver.m */; };
+		8424887E195E1A2000AB09E7 /* UrlResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 8424887C195E1A2000AB09E7 /* UrlResolver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		8424886B195E175100AB09E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8424886D195E175100AB09E7 /* PruebaUrlTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PruebaUrlTests.h; sourceTree = "<group>"; };
 		8424886E195E175100AB09E7 /* PruebaUrlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PruebaUrlTests.m; sourceTree = "<group>"; };
+		8424887B195E1A2000AB09E7 /* UrlResolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrlResolver.h; sourceTree = "<group>"; };
+		8424887C195E1A2000AB09E7 /* UrlResolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrlResolver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 		84248843195E175100AB09E7 /* PruebaUrl */ = {
 			isa = PBXGroup;
 			children = (
+				8424887B195E1A2000AB09E7 /* UrlResolver.h */,
+				8424887C195E1A2000AB09E7 /* UrlResolver.m */,
 				8424884C195E175100AB09E7 /* celAppDelegate.h */,
 				8424884D195E175100AB09E7 /* celAppDelegate.m */,
 				84248855195E175100AB09E7 /* MainStoryboard.storyboard */,
@@ -275,6 +281,7 @@
 				8424884A195E175100AB09E7 /* main.m in Sources */,
 				8424884E195E175100AB09E7 /* celAppDelegate.m in Sources */,
 				8424885A195E175100AB09E7 /* celViewController.m in Sources */,
+				8424887D195E1A2000AB09E7 /* UrlResolver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8424886F195E175100AB09E7 /* PruebaUrlTests.m in Sources */,
+				8424887E195E1A2000AB09E7 /* UrlResolver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
